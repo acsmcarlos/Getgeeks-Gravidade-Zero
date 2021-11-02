@@ -48,8 +48,8 @@ Should Be Type Email
     Submit Credentials
     Field Should Be Type Email
 
-### TEST CASES DO DESAFIO DIA 8/NOV=============================================
-Empty Email
+###   DESAFIO 1 (MÓDULO PRO)  =============================================
+Required Email
     [Tags]    email_empty
 
     ${user}    Create Dictionary    email=${EMPTY}    password=123456
@@ -59,7 +59,7 @@ Empty Email
     Submit Credentials
     Alert Text Should Be    E-mail obrigatório
 
-Empty Password
+Required Password
     [Tags]    pass_empty
 
     ${user}    Create Dictionary    email=antonio@gmail.com    password=${EMPTY}
