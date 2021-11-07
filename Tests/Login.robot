@@ -38,7 +38,7 @@ User Not Found
     Submit Credentials
     Modal Content Should Be    Usuário e/ou senha inválidos.
 
-Should Be Type Email
+Incorrect Email
     [Tags]    inv_email
 
     ${user}    Create Dictionary    email=antonio&gmail.com    password=123456
@@ -48,7 +48,7 @@ Should Be Type Email
     Submit Credentials
     Field Should Be Type Email
 
-###   DESAFIO 1 (MÓDULO PRO)  =============================================
+###    DESAFIO 1 (MÓDULO PRO)    =============================================
 Required Email
     [Tags]    email_empty
 
@@ -72,10 +72,22 @@ Required Password
 Required Fields
     [Tags]    fields_empty
 
-    ${user}    Create Dictionary    email=${EMPTY}    password=${EMPTY}
+    @{expected_alerts}    Set Variable
+    ...                   E-mail obrigatório
+    ...                   Senha obrigatória
+
+    @{got_alerts}    Create List
 
     Go To Login Page
-    Fill Credentials        ${user}
     Submit Credentials
-    Alert Text Should Be    E-mail obrigatório
-    Alert Text Should Be    Senha obrigatória
+
+    FOR    ${index}        IN RANGE     1    3
+        ${span}            Get Required Alerts    ${index}
+        Append To List     ${got_alerts}          ${span}
+    END
+    
+    Log     ${expected_alerts}
+    Log     ${got_alerts}
+    
+    Lists Should Be Equal     ${expected_alerts}    ${got_alerts}
+   

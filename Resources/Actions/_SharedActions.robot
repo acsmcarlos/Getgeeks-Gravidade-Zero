@@ -14,3 +14,10 @@ Modal Content Should Be
 
     Wait for Elements State    ${content}    visible    5
     Get Text                   ${content}    equal      ${expected_message}
+
+Get Required Alerts
+    [Arguments]    ${index}
+
+    ${span}     Get Text    xpath=(//form//span)[${index}]
+    
+    [Return]    ${span}
