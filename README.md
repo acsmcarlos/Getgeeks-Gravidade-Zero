@@ -48,8 +48,12 @@ Foram identificados os principais cenários:
 - Segurança na automação
 - Sementes (seeds)
   
-  
-  
+🚀 Tecnologias
+
+Python
+Robot Framework
+Browser Library
+
   
   
   
