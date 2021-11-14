@@ -26,4 +26,13 @@ Start Session
     New Page       ${URL_BASE}
 
 Finish Session
-    Take Screenshot
+    Take Screenshot    fullPage=True
+
+New Start Session
+    ${user}        Factory User    be_geek
+
+    New Browser    chromium        headless=False    slowMo=00:00:00
+    New Page       ${URL_BASE}
+    Do Login       ${user}
+
+    Go To Geek Form

@@ -11,7 +11,7 @@ Test Teardown    Finish Session
 User Login
     [Tags]    happy
 
-    ${user}    Factory User Login
+    ${user}    Factory User    login
 
     Go To Login Page
     Fill Credentials            ${user}
