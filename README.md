@@ -50,9 +50,9 @@ Foram identificados os principais cenários:
   
 🚀 Tecnologias
 
-Python
-Robot Framework
-Browser Library
+  -Python
+  - Robot Framework
+  - Browser Library
 
   
   
