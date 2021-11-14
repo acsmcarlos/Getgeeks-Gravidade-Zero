@@ -1,8 +1,10 @@
 <h1 align="center"> Olá, Seja Bem Vindo(a) </h1>
 <h3>Eu sou Antonio Carlos, e criei este projeto para o desafio solicitado no Bootcamp Gravidade Zero pela QANinja Academy!</h3>
 
-<img alt="QANinja" align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpkbiz3NJ6zZHZOGNAeuBtPawOmEyTxkRBT5yDxbMpmgPlvY2qmkv1PWWiQ9Atq-1eEE&usqp=CAU" width="400px" />
-<br>
+<a align="center" >
+<img alt="QANinja" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpkbiz3NJ6zZHZOGNAeuBtPawOmEyTxkRBT5yDxbMpmgPlvY2qmkv1PWWiQ9Atq-1eEE&usqp=CAU" width="400px" />
+</a>
+  <br>
 
 <div align="center">
   <a href="https://github.com/acsmcarlos">
