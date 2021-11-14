@@ -1,5 +1,5 @@
 ## Olá, Seja Bem Vindo(a)
-eu sou Antonio Carlos, Formado pela QANinja Academy !
+eu sou Antonio Carlos, Formado em Testes Manuais e Automatizados pela QANinja Academy !
 
 <div align="center">
   <a href="https://github.com/acsmcarlos">
