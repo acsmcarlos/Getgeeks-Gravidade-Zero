@@ -1,11 +1,10 @@
 <h1 align="center"> Olá, Seja Bem Vindo(a) </h1>
 <h3>Eu sou Antonio Carlos, e criei este projeto para o desafio solicitado no Bootcamp Gravidade Zero pela QANinja Academy!</h3>
 
-<a align="center" >
+<div align="center" >
 <img alt="QANinja" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpkbiz3NJ6zZHZOGNAeuBtPawOmEyTxkRBT5yDxbMpmgPlvY2qmkv1PWWiQ9Atq-1eEE&usqp=CAU" width="400px" />
-</a>
-  <br>
-
+<div>
+    <br>
 <div align="center">
   <a href="https://github.com/acsmcarlos">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=acsmcarlos&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
@@ -21,9 +20,7 @@
   <img align="center" alt="HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
-  
-  ##
- 
+
 <div align="center"> <h2> Minhas Redes Sociais </h2> <br>
   <a href="https://https://www.instagram.com/acsmcarlos2" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:acsmcarlos@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
@@ -31,7 +28,8 @@
  
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
    </div>
-  
+
+<div align="left">
   ## Gravidade Zero - Getgeeks
 
 Esta automação foi elaborada para atender ao Bootcamp Gravidade Zero Pro, proposto pela QA Ninja Academy. 
@@ -55,6 +53,7 @@ Foram identificados os principais cenários:
   - Python
   - Robot Framework
   - Browser Library
+</div>
 
   
   
