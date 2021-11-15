@@ -60,7 +60,7 @@ WhatsApp Should Be Blank
     Submit Geek Form
     Alert Span Should Be    O Whatsapp deve ter 11 digitos contando com o DDD
 
-# 02 Whatsapp somente DDD até 10 dígitos e...
+# 02 Whatsapp somente DDD
 # 03 Whatsapp com 3 até 10 dígitos
 WhatsApp With Short Number
     [Tags]    ten_dig
@@ -77,6 +77,42 @@ WhatsApp With Short Number
     34999999
     349999999
     3499999999
+
+Print Repair Should Be Blank
+    [Tags]    blank_print
+
+    ${user}    Factory User    login
+
+    ${user_list}    Create Dictionary
+    ...             whats=34958462579
+    ...             desc=Seu computador está muito lento? Reiniciando? Posso resolver seu problema. Seu computador está muito lento? Reiniciando? Posso resolver seu problema. Seu computador está muito lento? Reiniciando? Posso resolver seu problema
+    ...             printer_repair=${EMPTY}
+    ...             work=Remoto
+    ...             cost=150
+
+    Do Login                ${user}
+    Go To Geek Form
+    Fill Geek Form          ${user_list}
+    Submit Geek Form
+    Alert Span Should Be    Valor hora deve ser numérico
+
+Work Should Be Blank
+    [Tags]    blank_work
+
+    ${user}    Factory User    login
+
+    ${user_list}    Create Dictionary
+    ...             whats=34958462579
+    ...             desc=Seu computador está muito lento? Reiniciando? Posso resolver seu problema. Seu computador está muito lento? Reiniciando? Posso resolver seu problema. Seu computador está muito lento? Reiniciando? Posso resolver seu problema
+    ...             printer_repair=Sim
+    ...             work=${EMPTY}
+    ...             cost=150
+
+    Do Login                ${user}
+    Go To Geek Form
+    Fill Geek Form          ${user_list}
+    Submit Geek Form
+    Alert Span Should Be    Valor hora deve ser numérico
 
 # 04 - Descrição em branco
 Description Should Be Blank
