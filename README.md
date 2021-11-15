@@ -1,5 +1,5 @@
-<h1 align="center"> Olá, Seja Bem Vindo(a) ao repositório do Gravidade Zero!  </h1>
-<h3>Eu sou Antonio Carlos, e criei este projeto solicitado no Bootcamp Gravidade Zero pela QANinja Academy!</h3>
+<h1 align="center"> Olá, Seja Bem Vindo(a) <br> ao Repositório do Gravidade Zero! Getgeeks</h1>
+<h3>Eu sou Antonio Carlos, este repositório faz parte do Bootcamp Gravidade Zero - QANinja Academy!</h3>
 
 <div align="center" >
 <img alt="QANinja" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXpkbiz3NJ6zZHZOGNAeuBtPawOmEyTxkRBT5yDxbMpmgPlvY2qmkv1PWWiQ9Atq-1eEE&usqp=CAU" width="400px" />
@@ -30,11 +30,11 @@
    </div>
 
 <div align="left">
-  ## Gravidade Zero - Getgeeks
 
+  ## Gravidade Zero - Getgeeks
 Esta automação foi elaborada para atender ao Bootcamp Gravidade Zero Pro, proposto pela QA Ninja Academy. 
 A descrição do desafio consiste em:
-
+    
   ## Cenários Automatizados
 Foram identificados os principais cenários:
 - Automatizando o Cadastro
@@ -55,8 +55,8 @@ Foram identificados os principais cenários:
   - Browser Library
 
 ## Instalação
-    
-    1. **Realize o clone do repositório:**
+***
+2. **Realize o clone do repositório:**
 
  ```sh
  git clone git@github.com:acsmcarlos/Getgeeks-Gravidade-Zero.git
