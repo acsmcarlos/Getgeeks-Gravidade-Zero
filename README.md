@@ -128,7 +128,7 @@ etc...
     5. Tasks - Pasta que contém o arquivo Delorean, responsável por conectar, resetar, inserir dados e desconectar no banco de dados.
     6. Tests - Pasta que contém os arquivos onde os testes estão de fato implementados.
 
-**Desafio implementado conforme as especifições solicitadas e documentadas no arquivo: https://github.com/DicoMonteiro/getgeeks-gzero/blob/master/docs/geek.md**
+**Desafio implementado conforme as especifições solicitadas e documentadas no arquivo: [/docs/geek.md](https://github.com/DicoMonteiro/getgeeks-gzero/blob/master/docs/geek.md)**
 
 Foram identificados os principais cenários:
 - Sendo um visitante que deseja disponibilizar meus serviços de TI
