@@ -136,7 +136,7 @@ Foram identificados os principais cenários:
 - Para que eu possa configurar meu perfil de prestadores de serviços (Geeks)
     
     
-##### Cenário: Ser um Geek
+##### Cenário: Be a Geek/Ser um Geek
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -145,7 +145,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de sucesso:
     "Seu cadastro está na nossa lista de geeks. Agora é só ficar de olho no seu WhatsApp."
 
-##### Cenário: Campo Descrição Curta
+##### Cenário: Short Description/Campo Descrição Curta
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -155,7 +155,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "A descrição deve ter no minimo 80 caracteres"
 
-##### Cenário: Campo Descrição Longo
+##### Cenário: Campo Descrição Longo/Long Description
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -165,7 +165,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "A descrição deve ter no máximo 255 caracteres"
 
-##### Cenário: WhatsApp em branco
+##### Cenário: WhatsApp Should Be Blank/WhatsApp em branco
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -175,7 +175,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "O Whatsapp deve ter 11 digitos contando com o DDD"
 
-##### Cenário: Whatsapp somente com DDD
+##### Cenário: WhatsApp With Short Number/Whatsapp somente com DDD
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -185,7 +185,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "O Whatsapp deve ter 11 digitos contando com o DDD"
 
-##### Cenário: Whatsapp somente com 10 dígitos
+##### Cenário: WhatsApp With Short Number/Whatsapp somente com 10 dígitos
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -195,7 +195,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "O Whatsapp deve ter 11 digitos contando com o DDD"
 
-##### Cenário: Descrição em branco
+##### Cenário: Description Should Be Blank/Descrição em branco
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -205,7 +205,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Informe a descrição do seu trabalho"
 
-##### Cenário: Valor em branco
+##### Cenário: Hour Should Be Blank/Valor da hora em branco
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -215,7 +215,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Valor hora deve ser numérico"
 
-##### Cenário: Valor contendo alfanumerico
+##### Cenário: Incorrect Hour Format/Valor da hora contendo alfanumerico
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -225,7 +225,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Valor hora deve ser numérico"
 
-##### Cenário: Valor contendo letras
+##### Cenário: Incorrect Hour Format/Valor da hora contendo letras
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -235,7 +235,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Valor hora deve ser numérico"
 
-##### Cenário: Valor contendo caracteres especiais
+##### Cenário: Incorrect Hour Format/Valor da hora contendo caracteres especiais
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -245,7 +245,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Valor hora deve ser numérico"
 
-##### Cenário: Conserta impressora em branco
+##### Cenário: Print Repair Should Be Blank/Conserta impressora em branco
 
 Dado que estou na área logada
 E acesso o formulario de Geek
@@ -255,7 +255,7 @@ E confirmo o desejo de ser Geek
 Então vejo a mensagem de alerta:
     "Por favor, informe se você é um Geek Supremo"
 
-##### Cenário: Modelo de trabalho em branco
+##### Cenário: Work Should Be Blank/Modelo de trabalho em branco
 
 Dado que estou na área logada
 E acesso o formulario de Geek
