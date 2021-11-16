@@ -90,11 +90,11 @@ Print Repair Should Be Blank
     ...             work=Remoto
     ...             cost=150
 
-    Do Login                ${user}
+    Do Login                ${user} 
     Go To Geek Form
     Fill Geek Form          ${user_list}
     Submit Geek Form
-    Alert Span Should Be    Valor hora deve ser numérico
+    Alert Span Should Be    Por favor, informe se você é um Geek Supremo
 
 Work Should Be Blank
     [Tags]    blank_work
@@ -112,7 +112,7 @@ Work Should Be Blank
     Go To Geek Form
     Fill Geek Form          ${user_list}
     Submit Geek Form
-    Alert Span Should Be    Valor hora deve ser numérico
+    Alert Span Should Be    Por favor, selecione o modelo de trabalho
 
 # 04 - Descrição em branco
 Description Should Be Blank
