@@ -5,8 +5,9 @@ Documentation    Auth actions
 *** Keywords ***
 Go To Login Page
     Go To    ${URL_BASE}
+    Wait For Elements State    css=.submit-button >> text=Entrar    visible    15
 
-    Wait For Elements State    css=.login-form    visible    5
+    Wait For Elements State    css=.login-form    visible    15
 
 Fill Credentials
     [Arguments]    ${user}
@@ -25,7 +26,7 @@ User Should Be Logged In
 
     ${expected_fullname}    Set Variable    ${user}[name] ${user}[lastname]
 
-    Wait For Elements State    ${profile} >> text=${expected_fullname}    visible    5
+    Wait For Elements State    ${profile} >> text=${expected_fullname}    visible    15
 
     Log    \nProfile: ${profile_text}
     Log    Expected Fullname: ${expected_fullname}
@@ -40,6 +41,6 @@ Alert Text Should Be
 
     ${content}    Set Variable    css=span[class=error] >> text=${expected_alert}
 
-    Wait For Elements State    ${content}    visible    5
+    Wait For Elements State    ${content}    visible    15
 
     Get Text    ${content}    Should Be    ${expected_alert}

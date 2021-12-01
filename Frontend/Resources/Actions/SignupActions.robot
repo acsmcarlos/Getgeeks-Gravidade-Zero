@@ -6,7 +6,7 @@ Documentation    Signup actions
 Go To Signup Form
     Go To    ${URL_BASE}/signup
 
-    Wait For Elements State    css=.signup-form    Visible    5
+    Wait For Elements State    css=.signup-form    visible    15
 
 
 Fill Signup Form
@@ -24,7 +24,7 @@ Submit Signup Form
 User Should Be Registered
     ${expected_message}    Set Variable    css=p >> text=Agora você faz parte da Getgeeks. Tenha uma ótima experiência.
 
-    Wait For Elements State    ${expected_message}    visible    5
+    Wait For Elements State    ${expected_message}    visible    15
 
 Required Alerts Should Be
     [Arguments]    ${expected_alerts}

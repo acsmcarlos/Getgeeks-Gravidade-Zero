@@ -6,11 +6,13 @@ Documentation    Geek Actions
 Go To Geek Form
     Click    css=a[href='/be-geek'] >> text=Seja um Geek
 
-    Wait For Elements State    css=.be-geek-form    visible    5
+    Wait For Elements State    css=.be-geek-form    visible    15
 
 Fill Geek Form
     [Arguments]    ${geek_profile}
 
+    Reset Geek Form
+    
     Fill Text    id=whatsapp     ${geek_profile}[whats]
     Fill Text    id=desc         ${geek_profile}[desc]
 
@@ -24,11 +26,11 @@ Fill Geek Form
 
 Submit Geek Form
     Click     css=button >> text=Quero ser um Geek
-
+    
 Geek Form Should Be Success
     ${expected_message}    Set Variable    Seu cadastro está na nossa lista de geeks. Agora é só ficar de olho no seu WhatsApp.
 
-    Wait For Elements State    css=p >> text=${expected_message}    visible    5
+    Wait For Elements State    css=p >> text=${expected_message}    visible    15
 
 WhatsApp With Short Number
     [Arguments]    ${short_number}
@@ -61,3 +63,6 @@ Hour With Wrong Value
     Fill Geek Form          ${users}
     Submit Geek Form
     Alert Span Should Be    Valor hora deve ser numérico
+
+Reset Geek Form
+    Execute Javascript    document.getElementsByClassName("be-geek-form")[0].reset();

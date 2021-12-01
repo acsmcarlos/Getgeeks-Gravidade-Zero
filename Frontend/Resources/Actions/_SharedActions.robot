@@ -9,10 +9,10 @@ Modal Content Should Be
     ${title}      Set Variable    css=.swal2-title
     ${content}    Set Variable    css=.swal2-html-container
 
-    Wait for Elements State    ${title}    visible    5
+    Wait for Elements State    ${title}    visible    15
     Get Text                   ${title}    equal      Oops...
 
-    Wait for Elements State    ${content}    visible    5
+    Wait for Elements State    ${content}    visible    15
     Get Text                   ${content}    equal      ${expected_message}
 
 Get Required Alerts

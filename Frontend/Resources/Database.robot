@@ -16,6 +16,7 @@ Connect To Postgres
 
 Reset Env
     Execute SQL String    DELETE FROM geeks;
+    # DELETE FROM users where email in ('dio@linux.com', 'ebernard@yahoo.com', 'carlos@gmail.com')
     Execute SQL String    DELETE FROM users;
 
 Insert User
@@ -34,8 +35,5 @@ Users Seed
     ${user2}       Factory User     be_geek
     Insert User    ${user2}
 
-    ${user3}       Factory User     short_desc
+    ${user3}       Factory User     attempt_be_geek
     Insert User    ${user3}
-
-    ${user4}       Factory User     long_desc
-    Insert User    ${user4}

@@ -4,11 +4,13 @@ Documentation    Signup Test Case
 Resource    ${EXECDIR}/Resources/Base.robot
 
 Test Setup       Start Session
-Test Teardown    Finish Session
+Test Teardown    After Test
 
 
 *** Test Cases ***
 Register a new user
+    [Tags]    smoke
+    
     ${user}    Factory User    faker
 
     Set Suite Variable    ${user}

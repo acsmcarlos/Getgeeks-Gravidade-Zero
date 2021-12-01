@@ -4,12 +4,12 @@ Documentation    Authorization test suite
 Resource    ${EXECDIR}/Resources/Base.robot
 
 Test Setup       Start Session
-Test Teardown    Finish Session
+Test Teardown    After Test
 
 
 *** Test Cases ***
 User Login
-    [Tags]    happy
+    [Tags]    smoke
 
     ${user}    Factory User    login
 
