@@ -2,7 +2,7 @@ clear
 rm -rf Logs/
 
 robot -l NONE -o NONE -r NONE Tasks/Delorean.robot
-pabot -d ./Logs -v BROWSER:chromium -v HEADLESS:False Tests/
+pabot -d ./Logs -v BROWSER:chromium -v HEADLESS:False Tests/Login.robot
 
 rm -rf ./Logs/browser
 

@@ -4,7 +4,7 @@ Documentation    Base Test
 Library    Browser
 Library    Collections
 Library    Utils.py
-Library    ./Factories/Geeks.py
+# Library    ./Factories/Geeks.py
 Library    ./Factories/Users.py
 
 Resource    Actions/_SharedActions.robot
