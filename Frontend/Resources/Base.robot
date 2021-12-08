@@ -36,5 +36,6 @@ New Start Session
     Go To Geek Form
 
 After Test
-    ${shot_name}       Screenshot Name
-    Take Screenshot    fullPage=True              filename=${shot_name}
+    # ${shot_name}       Screenshot Name
+    Take Screenshot    
+    # fullPage=True              filename=${shot_name}
